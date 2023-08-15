@@ -20,7 +20,7 @@ $ yara -rs ./wordpress.yara /var/www > yara.log
 ### Run GoFence
 Run GoFence and do some clean up.
 ```
-$ ./gofence
+/var/www$ ./gofence
 
 Delete wp-includes/php-compat/good.php? [y/n]: n
 Delete wp-includes/php-compat/bad.php? [y/n]: y

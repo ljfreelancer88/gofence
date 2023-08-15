@@ -18,7 +18,7 @@ Note that the `yara.log` filename is important. GoFence will look for this.
 $ yara -rs ./wordpress.yara /var/www > yara.log
 ```
 ### Run GoFence
-Run GoFence
+Run GoFence and do some clean up.
 ```
 $ ./gofence
 

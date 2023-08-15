@@ -18,7 +18,6 @@ func main() {
 	defer f.Close()
 
 	scanner := bufio.NewScanner(f)
-
 	for scanner.Scan() {
 		line := scanner.Text()
 		if strings.Contains(line, ".php") || strings.Contains(line, ".ico") {

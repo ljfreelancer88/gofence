@@ -13,7 +13,8 @@ YACC=bison ./configure
 make
 ```
 ### Scan your root web directory
-Note that the `yara.log` filename is important. GoFence will look for this.
+`yara.log` filename is important. GoFence will look for this.
+And the wordpress.yara is a set of rules for Yara
 ```cmd
 $ yara -rs ./wordpress.yara /var/www > yara.log
 ```
